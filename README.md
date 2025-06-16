@@ -2,7 +2,7 @@
 
 **Emoji Fighter Showdown** is a fun browser-based game where two random emoji characters battle on-screen — and the stronger one wins based on their power level!
 
-![Preview of Emoji Fighter](preview.png)
+![Preview of Emoji Fighter](emoji-fighter.png)
 
 ---
 
