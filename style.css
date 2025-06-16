@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #1e1e2f, #343456);
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title */
+h1 {
+    font-size: 3.5rem;
+    color: #ffb347;
+    text-shadow: 3px 3px 0px black;
+    margin-bottom: 20px;
+    transform: rotate(-4deg);
+}
+
+/* Stage */
+#stage {
+    min-height: 80px;
+    font-size: 60px;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+/* Winner display */
+#winner {
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #e98a1d;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.winner {
+    color: #fffa65;
+    font-weight: bold;
+}
+
+/* Fighter emojis */
+.fighter {
+    font-size: 65px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.fighter:hover {
+    transform: scale(1.3);
+}
+
+/* Fight button */
+button {
+    margin-top: 25px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff9800;
+    color: white;
+    font-size: 22px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffb347;
+}
